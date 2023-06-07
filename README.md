@@ -42,7 +42,7 @@ First we  have write the code and we have to complie the code whether it was wor
 
 
 # Development Steps
- To check the live website (http://localhost/Hotel-Reservation-system/)
+ To check the live website (https://ramkalyangunimanikala.github.io/Hotel-reservation-system/)
 
  ### Prerequisites
  # Tools and technologies used
