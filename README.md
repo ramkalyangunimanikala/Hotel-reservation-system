@@ -34,7 +34,17 @@
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
-This project named the complete free online reservation script is a compiled php script which you can use to create an online hotel reservation website. This project is created with php and mysql database. If you have a hotel, you might want to have a means for people to book a room online without actually visiting your hotel unless the date of their check in or arrival, this script will help you in achieving that. After installation the website comes with an admin panel to manage all reservations made online and other website activities.
+This is a hotel reservation system web application built using HTML, CSS, JavaScript, and PHP. The system allows users to browse available hotel rooms, make reservations, and manage their bookings.
+
+## Features
+. User Registration: Users can create an account to access the reservation system.
+<br>. User Authentication: Secure login system to ensure only authorized users can access the reservation features.
+<br>. Room Listing: Display a list of available hotel rooms with details such as room type, price, and amenities.
+<br>.Room Search: Users can search for rooms based on their preferences, such as room type, dates, and number of guests.
+<br>.Reservation: Users can select a room, specify the booking details (check-in/check-out dates, number of guests), and make a reservation.
+<br>.Booking Management: Users can view and manage their existing reservations, including editing or canceling bookings.
+<br>.Payment Integration: Integration with a payment gateway to handle secure online payments for room reservations.
+<br>.Admin Panel: An admin interface to manage rooms, reservations, and user accounts.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -46,29 +56,21 @@ First we  have write the code and we have to complie the code whether it was wor
 
  ### Prerequisites
  # Tools and technologies used
-<br>Vs code
-<br>Xammp
-<br>PHPMyADMIN SERVER
-<br>WEB BROWSER
-<br>MySQL
-
-## Includes
-Php
-<br>Database – Mysql
-<br>Design – Html, Css, Javascript
-<br>More…
+<br> .HTML: Markup language used to structure the web pages.
+<br> . CSS: Styling language for designing the user interface.
+<br> . JavaScript: Adds interactivity and dynamic behavior to the web application.
+<br> . PHP: Backend scripting language for server-side processing and database interactions.
+<br> . XAMPP Server: Local web server software package that includes Apache, MySQL, and PHP for local development and testing.
 
 # Installing
-In other to proceed with this project you need to have a localhost server installed in your pc.
+<br> 1. Clone the repository or download the source code.
+<br> 2. Install XAMPP server on your local machine.
+<br> 3. Move the project folder to the htdocs directory of your XAMPP installation.
+<br> 4. Start the XAMPP server and ensure Apache and MySQL services are running.
+<br> 5. Import the database schema and sample data into your MySQL database.
+<br> 6. Update the database connection settings in the PHP files to match your local setup.
+<br> 7. Open a web browser and navigate to http://localhost/Hotel-Reservation-System to access the application.
 
-<br>Download the xampp application in to pc.
-<br>Copy the  folder  which we have wrriten the code and paste it in “C:/xampp/htdocs” directory
-<br>Open your installed XAMPP control and start Apache and mySql.
-<br>Open your browser and browse the URL or path “http://localhost/phpmyadmin/”, the phpMyAdmin page will open.
-<br>When the page opens, you create a new database when you click on New on the left screen side.
-<br>Then create a database with name “hotel_db” and click on create.
-<br>Click the import tab.
-<br>Click on the browse file and select the file named “hotel_db.sql” found in the database folder we extracted then click on GO.
 
 ### After creating a database
 Open another tab on your browser and browse the URL “http://localhost/Hotel-Reservation-system/” to see the website homepage or browse the URL http://localhost/Hotel-Reservation-system/admin/ for admin login page.
@@ -103,5 +105,13 @@ After completing the coding working and and the sql file has import to phpmyadmi
 - [Mysql](https://www.Mysql.com/) - Database
  - [Php](https://www.java.com/) - backend
  - [Html](https://www.Html.com/) - Frontend
+
+ ## Contributions
+Contributions to the project are welcome. If you find any bugs or want to suggest enhancements, please open an issue or submit a pull request.
+
+## License
+This project is licensed under the MIT License.
+
  ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 - skill-lync
+
